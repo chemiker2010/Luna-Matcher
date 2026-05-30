@@ -1,0 +1,9 @@
+[package]
+name = "luna_core"
+version = "0.1.0"
+edition = "2021"
+description = "Pure Rust subset-sum engine for Luna Matcher"
+license = "MIT"
+
+[lib]
+crate-type = ["rlib"]

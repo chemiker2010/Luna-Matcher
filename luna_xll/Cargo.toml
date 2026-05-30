@@ -1,0 +1,10 @@
+[package]
+name = "luna_xll"
+version = "0.1.0"
+edition = "2021"
+description = "Shared Excel XLOPER12 argument parsing for Luna Matcher XLL crates"
+license = "MIT"
+
+[dependencies]
+luna_core = { path = "../luna_core" }
+xll-rs = "0.1"

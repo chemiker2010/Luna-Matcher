@@ -1,0 +1,17 @@
+[package]
+name = "luna_modern"
+version = "0.1.0"
+edition = "2021"
+description = "Luna Matcher XLL for Excel 365 / 2021+ (dynamic array spill)"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+name = "luna_modern"
+
+[dependencies]
+luna_core = { path = "../luna_core" }
+
+[target.'cfg(windows)'.dependencies]
+luna_xll = { path = "../luna_xll" }
+xll-rs = "0.1"

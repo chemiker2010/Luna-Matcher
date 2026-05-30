@@ -1,0 +1,17 @@
+[package]
+name = "luna_legacy"
+version = "0.1.0"
+edition = "2021"
+description = "Luna Matcher XLL for legacy Excel (single-cell summary text)"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+name = "luna_legacy"
+
+[dependencies]
+luna_core = { path = "../luna_core" }
+
+[target.'cfg(windows)'.dependencies]
+luna_xll = { path = "../luna_xll" }
+xll-rs = "0.1"
