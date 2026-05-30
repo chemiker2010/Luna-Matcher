@@ -1,10 +1,9 @@
 # Luna Matcher
 
-[中文文档](README.md)
+English|[中文](README.md)
 
 Excel add-in (XLL) for financial invoice subset-sum matching. Given a list of positive amounts and a target total, it finds a combination that sums exactly to the target and marks the matching rows in the spreadsheet.
-
-Author: Hongtao Lu  
+ 
 License: MIT (see [LICENSE](LICENSE))
 
 ## Features
